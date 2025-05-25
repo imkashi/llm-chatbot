@@ -3,7 +3,7 @@ import openai
 import ollama
 
 # Configure your OpenAI API key (store securely in .env or Streamlit secrets)
-openai.api_key = "API_KEY"
+openai.api_key = "OPENAI_API_KEY"
 
 st.set_page_config(page_title="LLM Chatbot", page_icon="🤖")
 st.title("🤖 Chat with GPT")
