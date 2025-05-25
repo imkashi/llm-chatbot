@@ -1,13 +1,15 @@
 # llm-chatbot
 Chatbot using LLM
 
-# install depndency
+1. install depndency
 pip install openai streamlit
 
-# structure
-llm_chatbot/
+2. structure
+llm-chatbot/
+|--.streamlit/
+  |---secrets.toml       # to put your OPENAI_API_KEY
 ├── app.py               # Main Streamlit app
 └── requirements.txt     # Python dependencies
 
-# run
+4. run
 streamlit run app.py
